@@ -398,4 +398,34 @@ img {
       -ms-flex-positive: 1;
           flex-grow: 1;
 }
+
+.main {
+  position: relative;
+  width: 400px;
+  height: 400px;
+}
+
+.main .box {
+  position: absolute;
+  margin: 200px 200px;
+  width: 300px;
+  height: 300px;
+  border: 5px solid red;
+  border-radius: 100%;
+  background-image: url("../../images/user.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.main .square {
+  position: absolute;
+  margin: 200px 200px;
+  top: 240px;
+  left: 240px;
+  width: 35px;
+  height: 35px;
+  border: 5px solid #1dc0dd;
+  background-color: #1dc0dd;
+  border-radius: 100%;
+}
 /*# sourceMappingURL=main.css.map */
